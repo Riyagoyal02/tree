@@ -28,13 +28,6 @@ public class BST {
         }
         return root;
 	}
-	void inOrderTraversal(Node node){
-        if(node != null){
-            inOrderTraversal(node.left);
-            System.out.print(node.key + " ");
-            inOrderTraversal(node.right);
-        }
-    }
 	void preOrderTraversal(Node node){
         if(node != null){
             System.out.print(node.key + " ");
